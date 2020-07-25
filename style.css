@@ -1,12 +1,13 @@
+/*styling for the entire page*/
 *{
     box-sizing: border-box;
     background-color: darkgray;
 }
-
+/*background color for the header section*/
 header{
     background-color: darkslategrey;
 }
-
+/*styling for the header h1 elements*/
 header h1{
     font-family: serif, sans-serif;
     font-size: 40px;
@@ -14,7 +15,7 @@ header h1{
     text-align: center;
     color:darkslategrey;
 }
-
+/*styling for the header h3 element*/
 header h3{
     font-family: cursive;
     font-size: 28px;
@@ -22,14 +23,15 @@ header h3{
     text-align: center;
     color: darkslategrey;
 }
-
+/*styling for the hero img to center it in the middle of the page and slightly rounded corners*/
 .hero-image img{
     display: block;
     margin-right: auto;
     margin-left: auto;
     width: 50%;
+    border-radius: 5px;
 }
-
+/*styling for the hero header*/
 .hero-header{
     font-family: serif, sans-serif;
     font-size: 28px;
@@ -38,6 +40,9 @@ header h3{
     color: darkslategray;
 }
 
+
+/*styling for paragraphs, unordered lists and ordered lists*/
+
 p, ul, ol, li{
     font-family: Georgia; 
     font-size: 26px;
@@ -45,32 +50,40 @@ p, ul, ol, li{
     color: black;
     text-align: justify;
     margin: 0;
+    line-height: normal;
+   
 }
 
+p{
+    padding:inherit;
+}
+
+/*styling to make links blue in normal state*/
 a:link{
     color: blue;
 }
-
+/*styling to make links aqua when visted*/
 a:visted{
     color:aqua;
 }
-
+/*styling to make links chartreuse when hovered over*/
 a:hover{
     color:chartreuse;
 }
-
+/*styling to make links red when in use*/
 a:active{
     color: red;
 }
 
-
+/*footer background color*/
 footer{
     background-color: darkslategrey;
 }
-
+/*styling for footer image to center it in the middle*/
 footer img{
     display:block;
     margin-right: auto;
     margin-left: auto;
-    width: 5%
+    width: 5%;
+    border-radius: 5px;
 }
