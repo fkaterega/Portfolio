@@ -52,26 +52,28 @@ p, ul, ol, li{
     margin: 0;
     line-height: normal;
    
+   
 }
 
 p{
     padding:inherit;
+    
 }
 
 /*styling to make links blue in normal state*/
-a:link{
+ a:link{
     color: blue;
 }
 /*styling to make links aqua when visted*/
-a:visted{
+ a:visted{
     color:aqua;
 }
 /*styling to make links chartreuse when hovered over*/
-a:hover{
+ a:hover{
     color:chartreuse;
 }
 /*styling to make links red when in use*/
-a:active{
+ a:active{
     color: red;
 }
 
